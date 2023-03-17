@@ -10,11 +10,20 @@
 body{
     background-color:var(--main-bgc-color) ;
     color: var(--primary-text-color);
+
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.17;
 }
 
 .nav-item:hover, .nav-item:focus{
     color: var(--link-button-color);
     cursor: pointer;
+}
+
+.nav-item, .header-phone, .header-mail{
+    font-weight: 500; 
 }
 
 .header-mail:hover, .header-mail:focus{
@@ -33,16 +42,33 @@ body{
 
 .website-title{
     color: var(--main-bgc-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
 }
 
 .request-button{
     color: var(--main-bgc-color);
     background: var(--link-button-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+.capabilities-title{
+    font-weight: 700;
 }
 
 .capabilities-text{
     color: var(--secondary-text-color);
+    line-height: 1.71;
 }
+
+.what-we-do-title, .team-title{
+    font-weight: 700;
+    font-size: 36px;
+}
+
 
 .team-section{
     background-color: #F5F4FA;
@@ -51,6 +77,16 @@ body{
 .team-list-wrapper{
     background-color: var(--main-bgc-color);
 }  
+
+.team-names{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.team-role{
+    font-size: 16px;
+    color: var(--secondary-text-color);
+}
 
 .footer{
     background-color: var(--secondary-bgc-color);
@@ -66,12 +102,21 @@ body{
 
 .website-name-link{
     color: #000;
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: 700;
 }
 
 .footer-website-name-link{
     color: var(--main-bgc-color);
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: 700;
 }
 
 .website-name-link-web{
     color: var(--link-button-color);
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: 700;
 }
