@@ -10,16 +10,30 @@
 body{
     background-color:var(--main-bgc-color) ;
     color: var(--primary-text-color);
-
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
     line-height: 1.17;
 }
 
+.container{
+    width: 1200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+}
+
+.nav-item{
+    float: left;
+}
+
 .nav-item:hover, .nav-item:focus{
     color: var(--link-button-color);
     cursor: pointer;
+}
+
+.header-phone{
+    margin-left: 40px;
 }
 
 .nav-item, .header-phone, .header-mail{
@@ -37,7 +51,9 @@ body{
 }
 
 .title-section{
+    padding-bottom: 200px;
     background:var(--secondary-bgc-color);
+    padding-top: 200px;
 }
 
 .website-title{
@@ -45,14 +61,23 @@ body{
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    margin-bottom: 30px;
+    text-align: center;
+
 }
 
 .request-button{
-    color: var(--main-bgc-color);
-    background: var(--link-button-color);
+    display: block;    
+    width: 200px;
+    height: 50px;
+    margin:0 auto;
+    border-radius: 4px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    color: var(--main-bgc-color);
+    background: var(--link-button-color);
 }
 
 .capabilities-title{
@@ -105,6 +130,7 @@ body{
     font-family: 'Raleway';
     font-size: 26px;
     font-weight: 700;
+    line-height: 1.19;
 }
 
 .footer-website-name-link{
@@ -112,11 +138,14 @@ body{
     font-family: 'Raleway';
     font-size: 26px;
     font-weight: 700;
+    line-height: 1.19;
+    display: block;
 }
 
 .website-name-link-web{
     color: var(--link-button-color);
     font-family: 'Raleway';
     font-size: 26px;
+    line-height: 1.19;
     font-weight: 700;
 }

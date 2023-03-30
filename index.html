@@ -3,103 +3,126 @@
     <head>
         <meta charset="UTF-8"> 
         <title>WebStudio</title>
-        <link rel="stylesheet" href="/css/reset.css">
-        <link rel="stylesheet" href="/css/styles.css">
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+        />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet" href="/css/reset.css">
+        <link rel="stylesheet" href="/css/styles.css">
     </head>
     <body>
         <header>
-            <a href="" class="website-name-link"><span class="website-name-link-web">Web</span>Studio</a>
-            <nav class="nav-menu">
-                <ul class="nav-list">
-                    <li><a class="nav-item" href="">Studio</a></li>
-                    <li><a class="nav-item" href="">Portfolio</a></li>
-                    <li><a class="nav-item" href="">Contacts</a></li>
-                </ul>
-            </nav>
-            <a class="header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a class="header-phone" href="tel:+1-212-772-4150">+1 212-772-4150</a>
+            <div class="container">
+                <section class="header-section">
+                    <a href="" class="website-name-link"><span class="website-name-link-web">Web</span>Studio</a>
+                    <nav class="nav-menu">
+                        <ul class="nav-list">
+                            <li><a class="nav-item" href="">Studio</a></li>
+                            <li><a class="nav-item nav-item-margin" href="">Portfolio</a></li>
+                            <li><a class="nav-item nav-item-margin" href="">Contacts</a></li>
+                        </ul>
+                    </nav>
+                    <ul class="contacts-header">
+                        <a class="header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        <a class="header-phone" href="tel:+1-212-772-4150">+1 212-772-4150</a>
+                    </ul>
+                </section>
+            </div>
         </header>
         <main>
-            <section class="title-section">
-                <h1 class="website-title">EFFECTIVE SOLUTIONS FOR<br>YOUR BUSINESS</h1>
-                <button class="request-button" type="button">
-                    Request our servise
-                </button>
-            </section>
-            <section class="what-we-do-section">
-                <ul class="capabilities-list">
-                    <li class="capabilities-item">
-                        <h3 class="capabilities-title">ATTENTION TO DETAILS</h3>    
-                        <p class="capabilities-text">We go into all the details and processes <br> 
-                        of your business to develop a <br> customized solution.
-                        </p>
-                    </li>
-                    <li class="capabilities-item">
-                        <h3 class="capabilities-title">PUNCTUALITY</h3>    
-                        <p class="capabilities-text">With us, you can feel safe and secure.<br> An important principle of the company:<br>respect your time and deadlines.
-                        </p>
-                    </li>
-                    <li class="capabilities-item">
-                        <h3 class="capabilities-title">PLANNING</h3>
-                        <p class="capabilities-text">You will be able to observe and<br>participate in every phase of solution<br>development and implementation.</p>
-                    </li>
-                    <li class="capabilities-item">
-                        <h3 class="capabilities-title">MODERN TECHNOLOGIES</h3>
-                        <p class="capabilities-text">We use innovative tools to solve<br>assigned tasks. It's time to simplify work<br>processes.</p>
-                    </li>
-                </ul>
-                <h2 class="what-we-do-title">What we do</h2>
-                <ul class="capabilities-photo-list">
-                    <li class="capabilities-photo"><img width="370" src="./images/plansh.jpg" alt="Монитор клавиатура и айпад"></li>
-                    <li class="capabilities-photo"><img width="370" src="./images/теелеф.jpg" alt="Ноутбук телефон и Монитор"></li>
-                    <li class="capabilities-photo"><img width="370" src="./images/разноціет.jpg" alt="На планшете палитра цветов"></li>
-                </ul>
-            </section>
+            <div class="container">
+                <section class="title-section">
+                    <h1 class="website-title">EFFECTIVE SOLUTIONS FOR<br>YOUR BUSINESS</h1>
+                    <button class="request-button" type="button">
+                        Request our servise
+                    </button>
+                </section>
+            </div>
+            <div class="container">
+                <section class="what-we-do-section">
+                    <ul class="capabilities-list">
+                        <li class="capabilities-item">
+                            <h3 class="capabilities-title">ATTENTION TO DETAILS</h3>    
+                            <p class="capabilities-text">We go into all the details and processes <br> 
+                            of your business to develop a <br> customized solution.
+                            </p>
+                        </li>
+                        <li class="capabilities-item">
+                            <h3 class="capabilities-title">PUNCTUALITY</h3>    
+                            <p class="capabilities-text">With us, you can feel safe and secure.<br> An important principle of the company:<br>respect your time and deadlines.
+                            </p>
+                        </li>
+                        <li class="capabilities-item">
+                            <h3 class="capabilities-title">PLANNING</h3>
+                            <p class="capabilities-text">You will be able to observe and<br>participate in every phase of solution<br>development and implementation.</p>
+                        </li>
+                        <li class="capabilities-item">
+                            <h3 class="capabilities-title">MODERN TECHNOLOGIES</h3>
+                            <p class="capabilities-text">We use innovative tools to solve<br>assigned tasks. It's time to simplify work<br>processes.</p>
+                        </li>
+                    </ul>
+                    <h2 class="what-we-do-title">What we do</h2>
+                    <ul class="capabilities-photo-list">
+                        <li class="capabilities-photo"><img width="370" src="./images/plansh.jpg" alt="Монитор клавиатура и айпад"></li>
+                        <li class="capabilities-photo"><img width="370" src="./images/теелеф.jpg" alt="Ноутбук телефон и Монитор"></li>
+                        <li class="capabilities-photo"><img width="370" src="./images/разноціет.jpg" alt="На планшете палитра цветов"></li>
+                    </ul>
+                </section>
+            </div>
+            <div class="container">
                 <section class="team-section">
-                <h2 class="team-title">Our Team</h2>
-                <ul class="team-list">
-                    <li class="team-item">
-                        <div class="team-list-wrapper">
-                            <img class="team-photo" width="270" src="./images/крас.jpg" alt="Мужчина в краснной рубашке">
-                            <h4 class="team-names">Christopher Walker</h4>
-                            <p class="team-role">Product Designer</p>
-                        </div>
-                    </li>
-                    <li class="team-item">
-                        <div class="team-list-wrapper">
-                            <img class="team-photo" width="270" src="./images/дев.jpg" alt="Девушка в черном пиджаке">
-                            <h4 class="team-names">Kylie Evans</h4>
-                            <p class="team-role">Frontend Developer</p>
-                        </div>
-                    </li>
-                    <li class="team-item">
-                        <div class="team-list-wrapper">
-                            <img class="team-photo" width="270" src="./images/голуб.jpg" alt="Мужчина в голубой рубашке">
-                            <h4 class="team-names">Ryan Harris</h4>
-                            <p class="team-role">Marketing</p>
-                        </div>
-                    </li>
-                    <li class="team-item">
-                        <div class="team-list-wrapper">
-                            <img class="team-photo" width="270" src="./images/чер.jpg" alt="Мужчина в черной футболке">
-                            <h4 class="team-names">Tyler Moore</h4>
-                            <p class="team-role">UI Designer</p>
-                        </div>
-                    </li>
-                </ul>
-            </section>  
+                    <h2 class="team-title">Our Team</h2>
+                    <ul class="team-list">
+                        <li class="team-item">
+                            <div class="team-list-wrapper">
+                                <img class="team-photo" width="270" src="./images/крас.jpg" alt="Мужчина в краснной рубашке">
+                                <h4 class="team-names">Christopher Walker</h4>
+                                <p class="team-role">Product Designer</p>
+                            </div>
+                        </li>
+                        <li class="team-item">
+                            <div class="team-list-wrapper">
+                                <img class="team-photo" width="270" src="./images/дев.jpg" alt="Девушка в черном пиджаке">
+                                <h4 class="team-names">Kylie Evans</h4>
+                                <p class="team-role">Frontend Developer</p>
+                            </div>
+                        </li>
+                        <li class="team-item">
+                            <div class="team-list-wrapper">
+                                <img class="team-photo" width="270" src="./images/голуб.jpg" alt="Мужчина в голубой рубашке">
+                                <h4 class="team-names">Ryan Harris</h4>
+                                <p class="team-role">Marketing</p>
+                            </div>
+                        </li>
+                        <li class="team-item">
+                            <div class="team-list-wrapper">
+                                <img class="team-photo" width="270" src="./images/чер.jpg" alt="Мужчина в черной футболке">
+                                <h4 class="team-names">Tyler Moore</h4>
+                                <p class="team-role">UI Designer</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>  
+            </div>
         </main>
         <footer class="footer">
-            <a class="footer-website-name-link" href=""><span class="website-name-link-web">Web</span>Studio</a>
-            <address class="address">
-                695 Park Ave, NY 10065, USA
-            </address>
-            <a class="footer-mail" href="mailto:info@example.com">info@devstudio.com</a>
-            <a class="footer-phone" href="tel:+1-212-772-4150">+1 212-772-4150</a>
+            <div class="container">
+                <section class="footer-section">
+                    <a class="footer-website-name-link" href=""><span class="website-name-link-web">Web</span>Studio</a>
+                    <address class="address">
+                        695 Park Ave, NY 10065, USA
+                    </address>
+                    <a class="footer-mail" href="mailto:info@example.com">info@devstudio.com</a>
+                    <a class="footer-phone" href="tel:+1-212-772-4150">+1 212-772-4150</a>
+                </section>
+            </div>
         </footer>
     </body> 
 </html>
