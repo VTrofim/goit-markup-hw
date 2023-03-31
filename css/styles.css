@@ -180,7 +180,7 @@ body{
     text-align: center;
 }
 
-.footer{
+.footer-section{
     background-color: var(--secondary-bgc-color);
     padding: 60px 0px;
 }
