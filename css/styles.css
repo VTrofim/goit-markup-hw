@@ -48,29 +48,45 @@ body{
     cursor: pointer;
 }
 
-.contacts-header{
-    margin-left: 385px;
-}
-
-.header-phone{
-    letter-spacing: var(--nav-letter-spacing);
+.header-contacts-item:last-child{
     margin-left: 40px;
 }
 
-.header-mail{
+.header-contacts-item{
+    display: flex;
+    align-items: center;
+}
+
+.contacts-header{
+    display: flex;
+    align-items: center;
+    margin-left: 330px;
+}
+
+.header-mail-icon{
+    width: 16px;
+    height: 12px;
+    fill: var(--secondary-text-color);
+}
+
+.header-phone-icon{
+    width: 10px;
+    height: 16px;
+    fill: var(--secondary-text-color);
+    
+}
+
+.header-mail,.header-phone{
     letter-spacing: var(--nav-letter-spacing);
+    margin-left: 10px;
+    color: var(--secondary-text-color);
 }
 
 .nav-item, .header-phone, .header-mail{
     font-weight: 500; 
 }
 
-.header-mail:hover, .header-mail:focus{
-    color: var(--link-button-color);
-    cursor: pointer;
-}
-
-.header-phone:hover, .header-phone:focus{
+.header-mail:hover, .header-mail:focus, .header-phone:hover, .header-phone:focus{
     color: var(--link-button-color);
     cursor: pointer;
 }
@@ -107,7 +123,7 @@ body{
     background: var(--link-button-color);
 }
 
-.what-we-do-section{
+.capabilities-main-section{
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -124,8 +140,9 @@ body{
 }
 
 .capabilities-item{
-    flex-basis: 270px;
-}
+    /* flex-basis: calc((100%-3*30px)/4); */
+    width: 270px;
+} 
 
 .capabilities-title{
     font-weight: 700;
@@ -137,14 +154,15 @@ body{
     justify-content: space-between;
 }
 
-.what-we-do-title, .team-title{
+.capabilities-main-title, .team-title{
     font-weight: 700;
     font-size: 36px;
-    margin-top: 94px;
     text-align: center;
 }
 
-
+.capabilities-main-title{
+    margin-top: 94px;
+}
 
 .team-section{
     background-color: #F5F4FA;
@@ -153,6 +171,7 @@ body{
 }
 
 .team-list{
+    margin-top: 50px;
     display: flex;
     column-gap: 30px;
     flex-basis: calc((100%-30*3)/4);
@@ -188,11 +207,6 @@ body{
 .address{
     color: var(--main-bgc-color);
     margin-top: 28px;
-}
-
-.footer-contact-list{
-    display: flex;
-    flex-direction: column;
 }
 
 .footer-mail, .footer-phone{
