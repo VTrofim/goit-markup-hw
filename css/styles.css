@@ -39,6 +39,7 @@ body{
     justify-content: space-between;
 }
 
+
 .nav-item{
     letter-spacing: var(--nav-letter-spacing);
 }
@@ -76,6 +77,11 @@ body{
     
 }
 
+.header-mail-icon:focus,.header-mail-icon:hover,
+.header-phone-icon:focus,.header-phone-icon:hover{
+    fill: var(--link-button-color);
+}
+
 .header-mail,.header-phone{
     letter-spacing: var(--nav-letter-spacing);
     margin-left: 10px;
@@ -93,7 +99,8 @@ body{
 
 .title-section{
     padding-bottom: 200px;
-    background:var(--secondary-bgc-color);
+    background: #2F303A66, url('/images/Img.jpg');
+    ;  
     padding-top: 200px;
 }
 
