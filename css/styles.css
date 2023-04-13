@@ -99,9 +99,9 @@ body{
 
 .title-section{
     padding-bottom: 200px;
-    background: #2F303A66, url('/images/Img.jpg');
-    ;  
+    background: url('/images/img.jpg');
     padding-top: 200px;
+    object-fit: cover;
 }
 
 .website-title{
@@ -151,7 +151,52 @@ body{
     width: 270px;
 } 
 
+.capabilities-antena-wrapper{
+    padding: 25px 102px;
+    border-radius: 4px;
+    background: #F5F4FA;
+}
+
+.capabilities-svg-antena{
+    height: 70px;
+    width: 65px;
+}
+
+.capabilities-clock-wrapper{
+    padding: 25px 101.5px;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.capabilities-svg-clock{
+    height: 70px;
+    width: 67px;
+}
+
+.capabilities-diagram-wrapper{
+    padding: 33px 100px;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.capabilities-svg-diagram{
+    height: 70px;
+    width: 53.5px;
+}
+
+.capabilities-astronaut-wrapper{
+    padding: 25px 100px;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.capabilities-svg-astronaut{
+    width: 55px;
+    height: 60.5px;
+}
+
 .capabilities-title{
+    margin-top: 30px;
     font-weight: 700;
 }
 
