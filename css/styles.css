@@ -408,7 +408,6 @@ body{
 
 .portfolio-main-items{
     flex-basis: calc((100% - 2*30px) / 3);
-    /* width: 370px; */
     border: 1px solid #EEEEEE;
     padding-bottom: 20px;
 }
@@ -416,6 +415,7 @@ body{
 .portfolio-item-picture{
     width: 100%;
     height: auto;
+    position: absolute;
 }
 
 .portfolio-item-title{
@@ -431,4 +431,30 @@ body{
 .portfolio-main-items:hover,.portfolio-main-items:focus{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
     cursor: pointer;
+}
+
+.portfolion-img-wrapper{
+    overflow: hidden;
+    height: 292.41px;
+    position: relative;
+}
+
+.portfolio-item-text{
+    font-size: 18px;
+    line-height: 1.55;
+    color: var(--main-bgc-color);
+}
+
+
+.portfolio-main-items:hover .portfolio-image-text-wrapper{
+    transform: translateY(0%);
+    transition: transform 250ms ease;
+}
+
+.portfolio-image-text-wrapper{      
+    padding: 63px 24px 91px;
+    background-color: #2196F3E5;
+    width: 100%;
+    position: absolute;
+    transform: translateY(100%);
 }
