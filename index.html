@@ -369,10 +369,56 @@
         </footer>
         <div class="fade is-hidden" data-modal>
             <div class="modal-window">
-                <button type="button">
-                    <svg>
-                        <use class=""></use>
+                <button type="button" class="close-model-button" data-modal-close>
+                    <svg class="close-model-window">
+                        <use href="/images/symbol-defs.svg#icon-close"></use>
                     </svg>
+                </button>
+                <h2 class="modal-title">Leave your information and we'll call you back</h2>
+                <form class="form" autocomplete="on" name="your-info-form">
+                    <div class="input-container">
+                        <label class="modal-label" for="name">Name
+                        </label>
+                        <input class="modal-input" type="text" id="name" />
+                        <span class="input-svg-container">
+                            <svg class="modal-input-svg">
+                                <use href="/images/symbol-defs.svg#icon-person"></use>
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="input-container">
+                        <label class="modal-label" for="telephone">Telephone
+                        </label>
+                        <input class="modal-input" type="tel" id="telephone" />
+                        <span class="input-svg-container">
+                            <svg class="modal-input-svg">
+                                <use href="/images/symbol-defs.svg#icon-phone"></use>
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="input-container">
+                        <label class="modal-label" for="e-mail">E-mail
+                        </label>
+                        <input class="modal-input" type="email" id="e-mail"/>
+                        <span class="input-svg-container">
+                            <svg class="modal-input-svg">
+                                <use href="/images/symbol-defs.svg#icon-email"></use>
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="input-container">
+                        <label class="modal-label" for="comments">Comments</label>
+                        <textarea class="modal-textarea" id="comments" placeholder="Enter the text" rows="6"></textarea>
+                    </div>
+                    <div class="checkbox-container">
+                        <label class="checkbox-label">
+                            <input  type="checkbox" class="checkbox-input" required >
+                            I agree with the letter and accept the <a class="checkbox-link" href="">Terms and Conditions</a>
+                        </label>
+                    </div>
+                </form>
+                <button type="button" class="send-button" >
+                    Send
                 </button>
             </div>
         </div>
