@@ -1,0 +1,80 @@
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.nav-list {
+    margin-left: 93px;
+    display: flex;
+    width: 259px;
+    justify-content: space-between;
+}
+
+
+.nav__item {
+    letter-spacing: var(--nav-letter-spacing);
+}
+
+.nav__item:hover,
+.nav__item:focus {
+    color: var(--link-button-color);
+    cursor: pointer;
+}
+
+.header-list--contacts:last-child {
+    margin-left: 40px;
+}
+
+.header-list--contacts {
+    display: flex;
+    align-items: center;
+}
+
+.header-list--contacts {
+    display: flex;
+    align-items: center;
+    margin-left: 330px;
+}
+
+.header__icon--mail {
+    width: 16px;
+    height: 12px;
+    fill: var(--secondary-text-color);
+}
+
+.header__icon--phone {
+    width: 10px;
+    height: 16px;
+    fill: var(--secondary-text-color);
+
+}
+
+.header__icon--mail:focus,
+.header__icon--mail:hover,
+.header__icon--phone:focus,
+.header__icon--phone:hover {
+    fill: var(--link-button-color);
+}
+
+.header--mail,
+.header--phone {
+    letter-spacing: var(--nav-letter-spacing);
+    margin-left: 10px;
+    color: var(--secondary-text-color);
+}
+
+.nav__item,
+.header--phone,
+.header--mail {
+    font-weight: 500;
+}
+
+.header--mail:hover,
+.header--mail:focus,
+.header--phone:hover,
+.header--phone:focus {
+    color: var(--link-button-color);
+    cursor: pointer;
+}
